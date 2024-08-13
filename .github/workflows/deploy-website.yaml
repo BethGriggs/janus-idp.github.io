@@ -15,10 +15,6 @@
 name: Deploy the Website to Pages
 
 on:
-  # Runs on pushes targeting the default branch of janus-idp/backstage-plugins
-  repository_dispatch:
-    types: [deploy-website]
-
   # Runs on pushes targeting the default branch
   push:
     branches: [main]
